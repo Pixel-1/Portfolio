@@ -9,7 +9,7 @@
 */
 /* eslint-disable */
 
-import { stringToRawPath, rawPathToString, transformRawPath } from "https://cdn.jsdelivr.net/gh/Pixel-1/Portfolio@main/utils/paths.js";
+import { stringToRawPath, rawPathToString, transformRawPath } from "./utils/paths.js";
 
 let gsap, _coreInitted,
 	_getGSAP = () => gsap || (typeof(window) !== "undefined" && (gsap = window.gsap) && gsap.registerPlugin && gsap),
